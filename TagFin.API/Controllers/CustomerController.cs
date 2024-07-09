@@ -45,6 +45,5 @@ namespace TagFin.API.Controllers
             return Ok(response);
         }
 
-        //Sample comment
     }
 }
