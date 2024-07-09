@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\TagFin.API.props" />
+</Project>

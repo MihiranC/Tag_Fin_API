@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\My Works\\TagTeam\\Tag Finance\\Projects\\API\\TagFin.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{254550C8-20BD-4D64-B013-559797B123BC}|TagFin.Services\\TagFin.Services.csproj|d:\\my works\\tagteam\\tag finance\\projects\\api\\tagfin.api\\tagfin.services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{254550C8-20BD-4D64-B013-559797B123BC}|TagFin.Services\\TagFin.Services.csproj|solutionrelative:tagfin.services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A175FBB-957A-4D2F-8BB5-156DDE7C469F}|TagFin.API\\TagFin.API.csproj|d:\\my works\\tagteam\\tag finance\\projects\\api\\tagfin.api\\tagfin.api\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A175FBB-957A-4D2F-8BB5-156DDE7C469F}|TagFin.API\\TagFin.API.csproj|solutionrelative:tagfin.api\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0FEBE61-88E9-48DF-BE27-48DF14540641}|TagFin.Domain\\TagFin.Domain.csproj|d:\\my works\\tagteam\\tag finance\\projects\\api\\tagfin.api\\tagfin.domain\\customclasses\\updatedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0FEBE61-88E9-48DF-BE27-48DF14540641}|TagFin.Domain\\TagFin.Domain.csproj|solutionrelative:tagfin.domain\\customclasses\\updatedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0FEBE61-88E9-48DF-BE27-48DF14540641}|TagFin.Domain\\TagFin.Domain.csproj|d:\\my works\\tagteam\\tag finance\\projects\\api\\tagfin.api\\tagfin.domain\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0FEBE61-88E9-48DF-BE27-48DF14540641}|TagFin.Domain\\TagFin.Domain.csproj|solutionrelative:tagfin.domain\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A175FBB-957A-4D2F-8BB5-156DDE7C469F}|TagFin.API\\TagFin.API.csproj|d:\\my works\\tagteam\\tag finance\\projects\\api\\tagfin.api\\tagfin.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A175FBB-957A-4D2F-8BB5-156DDE7C469F}|TagFin.API\\TagFin.API.csproj|solutionrelative:tagfin.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A175FBB-957A-4D2F-8BB5-156DDE7C469F}|TagFin.API\\TagFin.API.csproj|d:\\my works\\tagteam\\tag finance\\projects\\api\\tagfin.api\\tagfin.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7A175FBB-957A-4D2F-8BB5-156DDE7C469F}|TagFin.API\\TagFin.API.csproj|solutionrelative:tagfin.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UpdateData.cs",
+              "DocumentMoniker": "D:\\My Works\\TagTeam\\Tag Finance\\Projects\\API\\TagFin.API\\TagFin.Domain\\CustomClasses\\UpdateData.cs",
+              "RelativeDocumentMoniker": "TagFin.Domain\\CustomClasses\\UpdateData.cs",
+              "ToolTip": "D:\\My Works\\TagTeam\\Tag Finance\\Projects\\API\\TagFin.API\\TagFin.Domain\\CustomClasses\\UpdateData.cs",
+              "RelativeToolTip": "TagFin.Domain\\CustomClasses\\UpdateData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T16:42:16.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\My Works\\TagTeam\\Tag Finance\\Projects\\API\\TagFin.API\\TagFin.API\\Program.cs",
+              "RelativeDocumentMoniker": "TagFin.API\\Program.cs",
+              "ToolTip": "D:\\My Works\\TagTeam\\Tag Finance\\Projects\\API\\TagFin.API\\TagFin.API\\Program.cs",
+              "RelativeToolTip": "TagFin.API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T15:10:19.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\My Works\\TagTeam\\Tag Finance\\Projects\\API\\TagFin.API\\TagFin.API\\appsettings.json",
+              "RelativeDocumentMoniker": "TagFin.API\\appsettings.json",
+              "ToolTip": "D:\\My Works\\TagTeam\\Tag Finance\\Projects\\API\\TagFin.API\\TagFin.API\\appsettings.json",
+              "RelativeToolTip": "TagFin.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-06T15:09:10.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "D:\\My Works\\TagTeam\\Tag Finance\\Projects\\API\\TagFin.API\\TagFin.API\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "TagFin.API\\Controllers\\CustomerController.cs",
+              "ToolTip": "D:\\My Works\\TagTeam\\Tag Finance\\Projects\\API\\TagFin.API\\TagFin.API\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "TagFin.API\\Controllers\\CustomerController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAACMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T14:52:51.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "D:\\My Works\\TagTeam\\Tag Finance\\Projects\\API\\TagFin.API\\TagFin.Services\\CustomerService.cs",
+              "RelativeDocumentMoniker": "TagFin.Services\\CustomerService.cs",
+              "ToolTip": "D:\\My Works\\TagTeam\\Tag Finance\\Projects\\API\\TagFin.API\\TagFin.Services\\CustomerService.cs",
+              "RelativeToolTip": "TagFin.Services\\CustomerService.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAswEoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T14:41:27.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\My Works\\TagTeam\\Tag Finance\\Projects\\API\\TagFin.API\\TagFin.Domain\\Customer.cs",
+              "RelativeDocumentMoniker": "TagFin.Domain\\Customer.cs",
+              "ToolTip": "D:\\My Works\\TagTeam\\Tag Finance\\Projects\\API\\TagFin.API\\TagFin.Domain\\Customer.cs",
+              "RelativeToolTip": "TagFin.Domain\\Customer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T14:25:24.587Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

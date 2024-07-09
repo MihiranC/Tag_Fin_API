@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "zNBHRBeLYB0=",
+  "success": true,
+  "projectFilePath": "D:\\My Works\\TagTeam\\Tag Finance\\Projects\\API\\TagFin.API\\TagFin.Domain\\TagFin.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\USER\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
