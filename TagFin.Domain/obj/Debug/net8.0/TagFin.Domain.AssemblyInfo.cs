@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TagFin.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b683e57184231255346d33b644e38a3deaed55b9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+67f4f4a8578e7764163967557459ed4d46c912bf")]
 [assembly: System.Reflection.AssemblyProductAttribute("TagFin.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TagFin.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
