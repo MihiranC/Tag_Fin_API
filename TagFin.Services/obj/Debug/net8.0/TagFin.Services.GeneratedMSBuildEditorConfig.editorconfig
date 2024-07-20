@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TagFin.Services
-build_property.ProjectDir = D:\My Works\TagTeam\Tag Finance\git\Fin API\Tag_Fin_API\TagFin.Services\
+build_property.ProjectDir = F:\TagHold\Tag_Finance\Tag Fin API\TagFin.Services\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
