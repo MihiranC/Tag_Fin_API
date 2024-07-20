@@ -66,7 +66,7 @@ namespace TagFin.Services
         {
             try
             {
-                using (var connection = new SqlConnection(_adminConnectionString))
+                using (var connection = new SqlConnection(_finConnectionString))
                 {
                     DynamicParameters para = new DynamicParameters();
                     string JsonData = JsonConvert.SerializeObject(data);
@@ -74,9 +74,9 @@ namespace TagFin.Services
                     para.Add("@Action", "I", DbType.String);
                     para.Add("@OldJsonData", "", DbType.String);
 
-                    await connection.ExecuteAsync("[dbo].[TAG_FIN_POPULATE_SubAccCategories]", para, commandType: System.Data.CommandType.StoredProcedure);
+                    var result = await connection.QueryAsync<SubAccCategories>("[dbo].[TAG_FIN_POPULATE_SubAccCategories]", para, commandType: System.Data.CommandType.StoredProcedure);
 
-                    return new BaseModel() { code = "1000", description = "Success", data = data };
+                    return new BaseModel() { code = "1000", description = "Success", data = result };
                 }
             }
             catch (Exception ex)
@@ -89,7 +89,7 @@ namespace TagFin.Services
         {
             try
             {
-                using (var connection = new SqlConnection(_adminConnectionString))
+                using (var connection = new SqlConnection(_finConnectionString))
                 {
                     DynamicParameters para = new DynamicParameters();
                     string JsonData = data.NewData.GetRawText();
@@ -113,7 +113,7 @@ namespace TagFin.Services
         {
             try
             {
-                using (var connection = new SqlConnection(_adminConnectionString))
+                using (var connection = new SqlConnection(_finConnectionString))
                 {
                     DynamicParameters para = new DynamicParameters();
                     string JsonData = JsonConvert.SerializeObject(data);
