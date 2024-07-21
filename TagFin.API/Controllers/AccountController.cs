@@ -26,9 +26,9 @@ namespace TagFin.API.Controllers
         }
 
         [HttpGet("SelectSubAccCategories")]
-        public async Task<ActionResult> SelectSubAccCategories(int id, string? code)
+        public async Task<ActionResult> SelectSubAccCategories(int id, string? code, string? mainAccCode)
         {
-            var response = await _service.SelectSubAccCategories(id, code);
+            var response = await _service.SelectSubAccCategories(id, code, mainAccCode);
             return Ok(response);
         }
 
@@ -53,5 +53,32 @@ namespace TagFin.API.Controllers
             return Ok(response);
         }
 
+        [HttpGet("SelectAccounts")]
+        public async Task<ActionResult> SelectAccounts(string? mainAccCode, string? subAccCode)
+        {
+            var response = await _service.SelectAccounts(mainAccCode, subAccCode);
+            return Ok(response);
+        }
+
+        [HttpPost("InsertAccounts")]
+        public async Task<ActionResult> InsertAccounts(Accounts data)
+        {
+            var response = await _service.InsertAccounts(data);
+            return Ok(response);
+        }
+
+        [HttpPost("UpdateAccounts")]
+        public async Task<ActionResult> UpdateAccounts(UpdateData data)
+        {
+            var response = await _service.UpdateAccounts(data);
+            return Ok(response);
+        }
+
+        [HttpPost("DeleteAccounts")]
+        public async Task<ActionResult> DeleteAccounts(Accounts data)
+        {
+            var response = await _service.DeleteAccounts(data);
+            return Ok(response);
+        }
     }
 }

@@ -7,6 +7,14 @@ using System.Xml.Linq;
 
 namespace TagFin.Domain
 {
+    public class Accounts
+    {
+        public int? id { get; set; }
+        public string? code { get; set; }
+        public string? subAccCode { get; set; }
+        public string? name { get; set; }
+        public int userId { get; set; }
+    }
     public class MainAccCategories
     {
         public string? name { get; set; }
