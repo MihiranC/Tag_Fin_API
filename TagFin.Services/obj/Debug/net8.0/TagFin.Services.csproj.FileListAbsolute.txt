@@ -13,19 +13,3 @@ D:\My Works\TagTeam\Tag Finance\Projects\API\TagFin.API\TagFin.Services\obj\Debu
 D:\My Works\TagTeam\Tag Finance\Projects\API\TagFin.API\TagFin.Services\obj\Debug\net8.0\refint\TagFin.Services.dll
 D:\My Works\TagTeam\Tag Finance\Projects\API\TagFin.API\TagFin.Services\obj\Debug\net8.0\TagFin.Services.pdb
 D:\My Works\TagTeam\Tag Finance\Projects\API\TagFin.API\TagFin.Services\obj\Debug\net8.0\ref\TagFin.Services.dll
-D:\My Works\TagTeam\Tag Finance\git\Fin API\Tag_Fin_API\TagFin.Services\obj\Debug\net8.0\TagFin.Services.dll
-D:\My Works\TagTeam\Tag Finance\git\Fin API\Tag_Fin_API\TagFin.Services\obj\Debug\net8.0\refint\TagFin.Services.dll
-D:\My Works\TagTeam\Tag Finance\git\Fin API\Tag_Fin_API\TagFin.Services\obj\Debug\net8.0\TagFin.Services.pdb
-D:\My Works\TagTeam\Tag Finance\git\Fin API\Tag_Fin_API\TagFin.Services\obj\Debug\net8.0\TagFin.Services.csproj.AssemblyReference.cache
-D:\My Works\TagTeam\Tag Finance\git\Fin API\Tag_Fin_API\TagFin.Services\obj\Debug\net8.0\TagFin.Services.GeneratedMSBuildEditorConfig.editorconfig
-D:\My Works\TagTeam\Tag Finance\git\Fin API\Tag_Fin_API\TagFin.Services\obj\Debug\net8.0\TagFin.Services.AssemblyInfoInputs.cache
-D:\My Works\TagTeam\Tag Finance\git\Fin API\Tag_Fin_API\TagFin.Services\obj\Debug\net8.0\TagFin.Services.AssemblyInfo.cs
-D:\My Works\TagTeam\Tag Finance\git\Fin API\Tag_Fin_API\TagFin.Services\obj\Debug\net8.0\TagFin.Services.csproj.CoreCompileInputs.cache
-D:\My Works\TagTeam\Tag Finance\git\Fin API\Tag_Fin_API\TagFin.Services\obj\Debug\net8.0\TagFin.Services.sourcelink.json
-D:\My Works\TagTeam\Tag Finance\git\Fin API\Tag_Fin_API\TagFin.Services\bin\Debug\net8.0\TagFin.Services.deps.json
-D:\My Works\TagTeam\Tag Finance\git\Fin API\Tag_Fin_API\TagFin.Services\bin\Debug\net8.0\TagFin.Services.dll
-D:\My Works\TagTeam\Tag Finance\git\Fin API\Tag_Fin_API\TagFin.Services\bin\Debug\net8.0\TagFin.Services.pdb
-D:\My Works\TagTeam\Tag Finance\git\Fin API\Tag_Fin_API\TagFin.Services\bin\Debug\net8.0\TagFin.Domain.dll
-D:\My Works\TagTeam\Tag Finance\git\Fin API\Tag_Fin_API\TagFin.Services\bin\Debug\net8.0\TagFin.Domain.pdb
-D:\My Works\TagTeam\Tag Finance\git\Fin API\Tag_Fin_API\TagFin.Services\obj\Debug\net8.0\TagFin.S.57AB8918.Up2Date
-D:\My Works\TagTeam\Tag Finance\git\Fin API\Tag_Fin_API\TagFin.Services\obj\Debug\net8.0\ref\TagFin.Services.dll
