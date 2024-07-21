@@ -80,5 +80,12 @@ namespace TagFin.API.Controllers
             var response = await _service.DeleteAccounts(data);
             return Ok(response);
         }
+
+        [HttpPost("InsertEntry")]
+        public async Task<ActionResult> InsertEntry(EntryHeader data)
+        {
+            var response = await _service.InsertEntry(data);
+            return Ok(response);
+        }
     }
 }

@@ -221,5 +221,28 @@ namespace TagFin.Services
                 return new BaseModel() { code = "998", description = ex.Message, data = data };
             }
         }
+
+        public async Task<BaseModel> InsertEntry(EntryHeader data)
+        {
+            try
+            {
+                using (var connection = new SqlConnection(_finConnectionString))
+                {
+                    DynamicParameters para = new DynamicParameters();
+                    string JsonData = JsonConvert.SerializeObject(data);
+                    para.Add("@JsonData", JsonData, DbType.String);
+                    para.Add("@Action", "I", DbType.String);
+                    para.Add("@OldJsonData", "", DbType.String);
+
+                    var result = await connection.QueryAsync<EntryHeader>("[dbo].[TAG_FIN_POPULATE_Entry]", para, commandType: System.Data.CommandType.StoredProcedure);
+
+                    return new BaseModel() { code = "1000", description = "Success", data = result };
+                }
+            }
+            catch (Exception ex)
+            {
+                return new BaseModel() { code = "998", description = ex.Message, data = data };
+            }
+        }
     }
 }
