@@ -142,7 +142,7 @@ namespace TagFin.Services
                     DynamicParameters para = new DynamicParameters();
                     para.Add("@MainAccCode", mainAccCode, DbType.String);
                     para.Add("@SubAccCode", subAccCode, DbType.String);
-                    var result = await connection.QueryAsync<MainAccCategories>("[dbo].[TAG_FIN_SELECT_Accounts]", para, commandType: System.Data.CommandType.StoredProcedure);
+                    var result = await connection.QueryAsync<Accounts>("[dbo].[TAG_FIN_SELECT_Accounts]", para, commandType: System.Data.CommandType.StoredProcedure);
                     return new BaseModel() { code = "1000", description = "Success", data = result };
                 }
             }
@@ -164,7 +164,7 @@ namespace TagFin.Services
                     para.Add("@Action", "I", DbType.String);
                     para.Add("@OldJsonData", "", DbType.String);
 
-                    var result = await connection.QueryAsync<SubAccCategories>("[dbo].[TAG_FIN_POPULATE_Accounts]", para, commandType: System.Data.CommandType.StoredProcedure);
+                    var result = await connection.QueryAsync<Accounts>("[dbo].[TAG_FIN_POPULATE_Accounts]", para, commandType: System.Data.CommandType.StoredProcedure);
 
                     return new BaseModel() { code = "1000", description = "Success", data = result };
                 }

@@ -14,6 +14,10 @@ namespace TagFin.Domain
         public string? subAccCode { get; set; }
         public string? name { get; set; }
         public int userId { get; set; }
+        public string? accName { get; set; }
+        public string? mainAccCategory { get; set; }
+        public string? subAccCategory { get; set; }
+        public string? mainAccCode { get; set; }
     }
     public class MainAccCategories
     {
