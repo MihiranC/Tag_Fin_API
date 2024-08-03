@@ -87,5 +87,12 @@ namespace TagFin.API.Controllers
             var response = await _service.InsertEntry(data);
             return Ok(response);
         }
+
+        [HttpGet("SelectPaymentMethods")]
+        public async Task<ActionResult> SelectPaymentMethods(string? code)
+        {
+            var response = await _service.SelectPaymentMethods(code);
+            return Ok(response);
+        }
     }
 }

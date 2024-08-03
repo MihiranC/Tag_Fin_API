@@ -10,6 +10,7 @@ var _FinConnectionString = builder.Configuration.GetConnectionString("FinConnect
 builder.Services.AddTransient<CustomerService>(c => new CustomerService(_AdminConnectionString, _FinConnectionString));
 builder.Services.AddTransient<AccountService>(c => new AccountService(_AdminConnectionString, _FinConnectionString));
 builder.Services.AddTransient<BranchService>(c => new BranchService(_AdminConnectionString, _FinConnectionString));
+builder.Services.AddTransient<ApplicationService>(c => new ApplicationService(_AdminConnectionString, _FinConnectionString));
 
 // Configure the HTTP request pipeline.
 

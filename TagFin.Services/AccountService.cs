@@ -244,5 +244,23 @@ namespace TagFin.Services
                 return new BaseModel() { code = "998", description = ex.Message, data = data };
             }
         }
+
+        public async Task<BaseModel> SelectPaymentMethods(string code)
+        {
+            try
+            {
+                using (var connection = new SqlConnection(_finConnectionString))
+                {
+                    DynamicParameters para = new DynamicParameters();
+                    para.Add("@Code", code, DbType.String);
+                    var result = await connection.QueryAsync<MainAccCategories>("[dbo].[TAG_FIN_SELECT_PaymentMethod]", para, commandType: System.Data.CommandType.StoredProcedure);
+                    return new BaseModel() { code = "1000", description = "Success", data = result };
+                }
+            }
+            catch (Exception ex)
+            {
+                return new BaseModel() { code = "998", description = ex.Message, data = code };
+            }
+        }
     }
 }
