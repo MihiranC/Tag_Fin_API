@@ -25,6 +25,12 @@ namespace TagFin.Domain
         public string? code { get; set; }
     }
 
+    public class PaymentMethods
+    {
+        public string? name { get; set; }
+        public string? code { get; set; }
+    }
+
     public class SubAccCategories
     {
         public int? id { get; set; }

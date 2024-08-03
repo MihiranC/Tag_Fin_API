@@ -88,6 +88,13 @@ namespace TagFin.API.Controllers
             return Ok(response);
         }
 
+        [HttpGet("SelectPaymentMethods")]
+        public async Task<ActionResult> SelectPaymentMethods(string? code)
+        {
+            var response = await _service.SelectPaymentMethods(code);
+            return Ok(response);
+        }
+
         [HttpPost("SearchAccountsInquiry")]
         public async Task<ActionResult> SearchAccountsInquiry(SearchAccountsInquiry data)
         {
