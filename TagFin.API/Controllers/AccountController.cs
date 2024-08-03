@@ -87,5 +87,12 @@ namespace TagFin.API.Controllers
             var response = await _service.InsertEntry(data);
             return Ok(response);
         }
+
+        [HttpPost("SearchAccountsInquiry")]
+        public async Task<ActionResult> SearchAccountsInquiry(SearchAccountsInquiry data)
+        {
+            var response = await _service.SearchAccountsInquiry(data);
+            return Ok(response);
+        }
     }
 }

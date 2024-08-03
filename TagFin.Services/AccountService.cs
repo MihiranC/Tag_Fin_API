@@ -244,5 +244,26 @@ namespace TagFin.Services
                 return new BaseModel() { code = "998", description = ex.Message, data = data };
             }
         }
+
+        public async Task<BaseModel> SearchAccountsInquiry(SearchAccountsInquiry data)
+        {
+            try
+            {
+                using (var connection = new SqlConnection(_finConnectionString))
+                {
+                    DynamicParameters para = new DynamicParameters();
+                    string JsonData = JsonConvert.SerializeObject(data);
+                    para.Add("@JsonData", JsonData, DbType.String);
+
+                    var result = await connection.QueryAsync<SearchAccountsInquiry>("[dbo].[TAG_FIN_SELECT_AccountInquiry]", para, commandType: System.Data.CommandType.StoredProcedure);
+
+                    return new BaseModel() { code = "1000", description = "Success", data = result };
+                }
+            }
+            catch (Exception ex)
+            {
+                return new BaseModel() { code = "998", description = ex.Message, data = data };
+            }
+        }
     }
 }
