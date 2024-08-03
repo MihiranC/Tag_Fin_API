@@ -29,3 +29,19 @@ D:\My Works\TagTeam\Tag Finance\git\Fin API\Tag_Fin_API\TagFin.Services\obj\Debu
 D:\My Works\TagTeam\Tag Finance\git\Fin API\Tag_Fin_API\TagFin.Services\obj\Debug\net8.0\refint\TagFin.Services.dll
 D:\My Works\TagTeam\Tag Finance\git\Fin API\Tag_Fin_API\TagFin.Services\obj\Debug\net8.0\TagFin.Services.pdb
 D:\My Works\TagTeam\Tag Finance\git\Fin API\Tag_Fin_API\TagFin.Services\obj\Debug\net8.0\ref\TagFin.Services.dll
+F:\TagHold\Tag_Finance\Tag Fin API\TagFin.Services\bin\Debug\net8.0\TagFin.Services.deps.json
+F:\TagHold\Tag_Finance\Tag Fin API\TagFin.Services\bin\Debug\net8.0\TagFin.Services.dll
+F:\TagHold\Tag_Finance\Tag Fin API\TagFin.Services\bin\Debug\net8.0\TagFin.Services.pdb
+F:\TagHold\Tag_Finance\Tag Fin API\TagFin.Services\bin\Debug\net8.0\TagFin.Domain.dll
+F:\TagHold\Tag_Finance\Tag Fin API\TagFin.Services\bin\Debug\net8.0\TagFin.Domain.pdb
+F:\TagHold\Tag_Finance\Tag Fin API\TagFin.Services\obj\Debug\net8.0\TagFin.Services.csproj.AssemblyReference.cache
+F:\TagHold\Tag_Finance\Tag Fin API\TagFin.Services\obj\Debug\net8.0\TagFin.Services.GeneratedMSBuildEditorConfig.editorconfig
+F:\TagHold\Tag_Finance\Tag Fin API\TagFin.Services\obj\Debug\net8.0\TagFin.Services.AssemblyInfoInputs.cache
+F:\TagHold\Tag_Finance\Tag Fin API\TagFin.Services\obj\Debug\net8.0\TagFin.Services.AssemblyInfo.cs
+F:\TagHold\Tag_Finance\Tag Fin API\TagFin.Services\obj\Debug\net8.0\TagFin.Services.csproj.CoreCompileInputs.cache
+F:\TagHold\Tag_Finance\Tag Fin API\TagFin.Services\obj\Debug\net8.0\TagFin.Services.sourcelink.json
+F:\TagHold\Tag_Finance\Tag Fin API\TagFin.Services\obj\Debug\net8.0\TagFin.Services.csproj.CopyComplete
+F:\TagHold\Tag_Finance\Tag Fin API\TagFin.Services\obj\Debug\net8.0\TagFin.Services.dll
+F:\TagHold\Tag_Finance\Tag Fin API\TagFin.Services\obj\Debug\net8.0\refint\TagFin.Services.dll
+F:\TagHold\Tag_Finance\Tag Fin API\TagFin.Services\obj\Debug\net8.0\TagFin.Services.pdb
+F:\TagHold\Tag_Finance\Tag Fin API\TagFin.Services\obj\Debug\net8.0\ref\TagFin.Services.dll
