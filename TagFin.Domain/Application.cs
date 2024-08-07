@@ -46,13 +46,13 @@ namespace TagFin.Domain
     {
         public int? id { get; set; }
         public int? calId { get; set; }
-        public string? ChargeCode { get; set; }
-        public string? RentalNo { get; set; }
-        public string? NetRental { get; set; }
-        public string? Capital { get; set; }
-        public string? CapitalBalance { get; set; }
-        public string? Interest { get; set; }
-        public string? InterestBalance { get; set; }
+        public string? chargeCode { get; set; }
+        public string? rentalNo { get; set; }
+        public string? netRental { get; set; }
+        public string? capital { get; set; }
+        public string? capitalBalance { get; set; }
+        public string? interest { get; set; }
+        public string? interestBalance { get; set; }
         public int userId { get; set; }
 
     }
@@ -70,7 +70,7 @@ namespace TagFin.Domain
         public string? chargeCapital { get; set; }
         public string? chargeCapitalBalance { get; set; }
         public string? chargeInterest { get; set; }
-        public string? chargeCapitalInterest { get; set; }
+        public string? chargeInterestBalance { get; set; }
         public int userId { get; set; }
 
     }

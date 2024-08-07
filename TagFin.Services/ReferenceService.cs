@@ -52,7 +52,7 @@ namespace TagFin.Services
                     DynamicParameters para = new DynamicParameters();
                     para.Add("@ChargeCode", chargeCode, DbType.String);
                     para.Add("@ProductCode", productCode, DbType.String);
-                    var result = await connection.QueryAsync<Product>("[dbo].[TAG_FIN_SELECT_ProductWiseChargers]", para, commandType: System.Data.CommandType.StoredProcedure);
+                    var result = await connection.QueryAsync<ProductWiseChargers>("[dbo].[TAG_FIN_SELECT_ProductWiseChargers]", para, commandType: System.Data.CommandType.StoredProcedure);
                     return new BaseModel() { code = "1000", description = "Success", data = result };
                 }
             }
@@ -79,13 +79,14 @@ namespace TagFin.Services
             }
         }
 
-        public async Task<BaseModel> SelectProductWiseCalMethods()
+        public async Task<BaseModel> SelectProductWiseCalMethods(string productCode)
         {
             try
             {
                 using (var connection = new SqlConnection(_finConnectionString))
                 {
-                    DynamicParameters para = new DynamicParameters();
+                    DynamicParameters para = new DynamicParameters();//@ProductCode
+                    para.Add("@ProductCode", productCode, DbType.String);
                     var result = await connection.QueryAsync<ProductWiseCalMethods>("[dbo].[TAG_FIN_SELECT_ProductWiseCalMethods]", para, commandType: System.Data.CommandType.StoredProcedure);
                     return new BaseModel() { code = "1000", description = "Success", data = result };
                 }

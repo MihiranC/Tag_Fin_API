@@ -28,6 +28,7 @@ namespace TagFin.Domain
         public string? chargeName { get; set; }
         public string? productName { get; set; }
         public int? userId { get; set; }
+        public bool? IsMandetory { get; set; }
 
     }
 

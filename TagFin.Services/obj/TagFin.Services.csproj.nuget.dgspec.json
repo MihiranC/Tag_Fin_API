@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "F:\\TagHold\\Tag_Finance\\Tag Fin API\\TagFin.Services\\TagFin.Services.csproj": {}
+    "D:\\My Works\\TagTeam\\Tag Finance\\git\\Fin API\\Tag_Fin_API\\TagFin.Services\\TagFin.Services.csproj": {}
   },
   "projects": {
-    "F:\\TagHold\\Tag_Finance\\Tag Fin API\\TagFin.Domain\\TagFin.Domain.csproj": {
+    "D:\\My Works\\TagTeam\\Tag Finance\\git\\Fin API\\Tag_Fin_API\\TagFin.Domain\\TagFin.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\TagHold\\Tag_Finance\\Tag Fin API\\TagFin.Domain\\TagFin.Domain.csproj",
+        "projectUniqueName": "D:\\My Works\\TagTeam\\Tag Finance\\git\\Fin API\\Tag_Fin_API\\TagFin.Domain\\TagFin.Domain.csproj",
         "projectName": "TagFin.Domain",
-        "projectPath": "F:\\TagHold\\Tag_Finance\\Tag Fin API\\TagFin.Domain\\TagFin.Domain.csproj",
-        "packagesPath": "C:\\Users\\Mihiran\\.nuget\\packages\\",
-        "outputPath": "F:\\TagHold\\Tag_Finance\\Tag Fin API\\TagFin.Domain\\obj\\",
+        "projectPath": "D:\\My Works\\TagTeam\\Tag Finance\\git\\Fin API\\Tag_Fin_API\\TagFin.Domain\\TagFin.Domain.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "D:\\My Works\\TagTeam\\Tag Finance\\git\\Fin API\\Tag_Fin_API\\TagFin.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Mihiran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -39,6 +39,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -66,24 +71,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\TagHold\\Tag_Finance\\Tag Fin API\\TagFin.Services\\TagFin.Services.csproj": {
+    "D:\\My Works\\TagTeam\\Tag Finance\\git\\Fin API\\Tag_Fin_API\\TagFin.Services\\TagFin.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\TagHold\\Tag_Finance\\Tag Fin API\\TagFin.Services\\TagFin.Services.csproj",
+        "projectUniqueName": "D:\\My Works\\TagTeam\\Tag Finance\\git\\Fin API\\Tag_Fin_API\\TagFin.Services\\TagFin.Services.csproj",
         "projectName": "TagFin.Services",
-        "projectPath": "F:\\TagHold\\Tag_Finance\\Tag Fin API\\TagFin.Services\\TagFin.Services.csproj",
-        "packagesPath": "C:\\Users\\Mihiran\\.nuget\\packages\\",
-        "outputPath": "F:\\TagHold\\Tag_Finance\\Tag Fin API\\TagFin.Services\\obj\\",
+        "projectPath": "D:\\My Works\\TagTeam\\Tag Finance\\git\\Fin API\\Tag_Fin_API\\TagFin.Services\\TagFin.Services.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "D:\\My Works\\TagTeam\\Tag Finance\\git\\Fin API\\Tag_Fin_API\\TagFin.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Mihiran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -99,8 +104,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "F:\\TagHold\\Tag_Finance\\Tag Fin API\\TagFin.Domain\\TagFin.Domain.csproj": {
-                "projectPath": "F:\\TagHold\\Tag_Finance\\Tag Fin API\\TagFin.Domain\\TagFin.Domain.csproj"
+              "D:\\My Works\\TagTeam\\Tag Finance\\git\\Fin API\\Tag_Fin_API\\TagFin.Domain\\TagFin.Domain.csproj": {
+                "projectPath": "D:\\My Works\\TagTeam\\Tag Finance\\git\\Fin API\\Tag_Fin_API\\TagFin.Domain\\TagFin.Domain.csproj"
               }
             }
           }
@@ -109,6 +114,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -144,7 +154,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

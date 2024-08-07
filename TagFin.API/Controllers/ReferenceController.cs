@@ -40,9 +40,9 @@ namespace TagFin.API.Controllers
         }
 
         [HttpGet("SelectProductWiseCalMethods")]
-        public async Task<ActionResult> SelectProductWiseCalMethods()
+        public async Task<ActionResult> SelectProductWiseCalMethods(string productCode)
         {
-            var response = await _service.SelectProductWiseCalMethods();
+            var response = await _service.SelectProductWiseCalMethods(productCode);
             return Ok(response);
         }
 

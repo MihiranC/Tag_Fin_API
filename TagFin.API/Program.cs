@@ -11,6 +11,7 @@ builder.Services.AddTransient<CustomerService>(c => new CustomerService(_AdminCo
 builder.Services.AddTransient<AccountService>(c => new AccountService(_AdminConnectionString, _FinConnectionString));
 builder.Services.AddTransient<BranchService>(c => new BranchService(_AdminConnectionString, _FinConnectionString));
 builder.Services.AddTransient<ApplicationService>(c => new ApplicationService(_AdminConnectionString, _FinConnectionString));
+builder.Services.AddTransient<ReferenceService>(c => new ReferenceService(_AdminConnectionString, _FinConnectionString));
 
 // Configure the HTTP request pipeline.
 
